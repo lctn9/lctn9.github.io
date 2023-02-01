@@ -1,26 +1,68 @@
 <!DOCTYPE html>
 <html>
     <style>
- 
-        /* Set display to none for image*/
+        #btnID {
+            font-size: 70px;
+            color: #25136c;
+        }
+        
         #image {
             display: none;
         }
         #thingapproval {
             display: none;
+            font-family:Helvetica;
+            font-size:80px;
+            color: #25136c;
         }
+        #a1 {
+            font-family: Helvetica;
+            font-size: 60px;
+            color: #25136c;
+        }
+        #a2 {
+            font-family: Helvetica;
+            font-size: 60px;
+            color: #25136c;
+        }
+
+        #a3 {
+            font-family: Helvetica;
+            font-size: 60px;
+            color: #25136c;
+        }
+
+        #a4 {
+            font-family: Helvetica;
+            font-size: 60px;
+            color: #25136c;
+        }
+
+        #a5 {
+            font-family: Helvetica;
+            font-size: 60px;
+            color: #25136c;
+        }
+
+        #a6 {
+            font-family: Helvetica;
+            font-size: 40px;
+            color: #25136c;
+        }
+
+        
     </style>
 <body>
 <div>
-    <h3 id="1" style="font-family: Helvetica">ΔΕΛΤΙΟ ΤΑΥΤΟΤΗΤΑΣ: ID CARD</h3>
-    <h3 id ="2" style="font-family: Helvetica">ΕΠΟΝΥΜΟ:ΑΛΕΞΑΝΔΡΕΥΣ  </h3>
-    <h3 id="3" style="font-family: Helvetica">Surname:Alexandreus</h3>
-    <h3 id="4" style="font-family: Helvetica">ΟΝΟΜΑ:ΗΡΟΝ </h3>
-    <h3 id="5" style="font-family: Helvetica">Name:Heron</h3>
-    <h3 id="6" style="font-family: Helvetica">ΗΜΕΡΟΜΗΝΙΑ ΓΕΝΝΗΣΗΣ:12/07/1996</h3>
+    <h3 id="a1">ΔΕΛΤΙΟ ΤΑΥΤΟΤΗΤΑΣ: ID CARD</h3>
+    <h3 id="a2">ΕΠΟΝΥΜΟ:ΑΛΕΞΑΝΔΡΕΥΣ  </h3>
+    <h3 id="a3">Surname:Alexandreus</h3>
+    <h3 id="a4">ΟΝΟΜΑ:ΗΡΟΝ </h3>
+    <h3 id="a5">Name:Heron</h3>
+    <h3 id="a6">ΗΜΕΡΟΜΗΝΙΑ ΓΕΝΝΗΣΗΣ:12/07/1996</h3>
     <button  onclick="show()" id="btnID">ΕΞΕΤΑΖΟ ΤΑΥΤΟΤΗΤΑΣ: CHECK ID</button>
-    <img id="image" src="https://api.nationalmarker.com/Data/Media/Catalog/800/e53a3242-28ab-44c2-b7d6-c3af28c74014ISO473AP.jpg" width="400" 
-    height="400" display="">
+    <img id="image" src="https://api.nationalmarker.com/Data/Media/Catalog/800/e53a3242-28ab-44c2-b7d6-c3af28c74014ISO473AP.jpg" width="800" 
+    height="800" display="">
     <h1 id="thingapproval" style="font-family: Helvetica" display="">ΕΓΚΡΊΘΗΚΕ: APPROVED</h1>
 </div>
 <script>
@@ -35,17 +77,17 @@
 
         document.getElementById('btnID')
                 .style.display = "none";
-        document.getElementById('1')
+        document.getElementById('a1')
                 .style.display="none";
-        document.getElementById('2')
+        document.getElementById('a2')
                 .style.display="none";
-        document.getElementById('3')
+        document.getElementById('a3')
                 .style.display="none";
-        document.getElementById('4')
+        document.getElementById('a4')
                 .style.display="none";
-        document.getElementById('5')
+        document.getElementById('a5')
                 .style.display="none";
-        document.getElementById('6')
+        document.getElementById('a6')
                 .style.display="none";
 
     }
